@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.education.freelancer.StartActivity">
+
+    <ImageView
+        android:id="@+id/flyboard_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="50dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/fb"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/waiwer_title"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/textView"
+        android:layout_below="@id/flyboard_image"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/button_background"
+        android:text="@string/nextbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>
