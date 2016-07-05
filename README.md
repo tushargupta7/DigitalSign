@@ -7,4 +7,4 @@ Features:
 3) Saving the signatures as bitmaps.
 4) On form completion generating the whole filled up form as pdf with filled in details and digital signatures using 
    ITextPdf Library of android.
-5) Storing the pdf file on local system.
+5) Storing the pdf file on local system.(In a folder named "DigitSign" in the internal memory)
